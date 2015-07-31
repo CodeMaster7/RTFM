@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html ng-app='rtfmApp'>
+<head>
+    
+    <title>Nome do Documento</title>
+	<link rel="stylesheet" type="text/css" href="styles.css.">
+</head>
+    
+<body ng-controller='mainController'>
+    
+<!--    <h1>{{ hello }}</h1>-->
+    
+    <div class="container" ng-view></div>
+    
+    
+    <!-- Angular Core library -->
+    <script src='https://code.angularjs.org/1.4.3/angular.js'></script>
+    <!-- Firebase -->
+    <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+    <!-- AngularFire -->
+    <script src="https://cdn.firebase.com/libs/angularfire/1.1.2/angularfire.js"></script>
+    <!-- Angular ng-route -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular-route.js'></script>
+    <!-- Angular Application -->
+    <script src="app.js"></script>
+    <!-- Angular Controller -->
+    <script src="mainController.js"></script>
+</body>
+</html>
